@@ -1,0 +1,40 @@
+/* pages/selectCard/selectCard.wxss */
+/*{margin:0; padding: 0;} */
+
+.backimg{
+overflow:hidden; 
+position:fixed; 
+margin: 0rpx; 
+/*下面的是关键的设置100%显示*/ 
+background-size: 100% 100%; 
+}
+
+.board{
+    margin-left: 5rpx;
+    margin-bottom: 5rpx;
+}
+.rows{
+    margin-bottom:1rpx ;
+    padding:0rpx;
+    text-algin:center;
+    flex-direction:row;
+    display:flex;
+}
+.cols{
+    margin: 5rpx;
+}
+.card{
+     width:  95rpx;
+     height: 130rpx;
+     padding:0.5rpx;
+     magrin: 1rpx;
+}
+
+.att{
+    margin-bottom:1rpx ;
+    padding:0rpx;
+    text-algin:center;
+}
+
+page{background: "whitesmoke" center top; }
+

@@ -4,15 +4,32 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '开始预测',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    welcome:'欢迎使用心悦塔罗来预测',
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+
+    items: [
+      { name: 'Career', value: '事业' },
+      { name: 'Family', value: '家庭', checked: 'true' },
+      { name: 'Child', value: '子女' },
+      { name: 'Health', value: '身体' },
+      { name: 'Love', value: '恋爱' },
+      { name: 'Parent', value: '父母' },
+      { name: 'Friends', value: '朋友' },
+      { name: 'Others', value: '其他' },
+    ]
   },
+
+  radioChange: function (e) {
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../selectCard/selectCard'
     })
   },
   onLoad: function () {

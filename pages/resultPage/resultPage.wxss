@@ -1,0 +1,12 @@
+/* pages/resultPage/resultPage.wxss */
+
+.card{
+     width:  475rpx;
+     height: 650rpx;
+     padding:4.5rpx;
+     magrin: 1rpx;
+     text-align:center;
+
+     
+
+}

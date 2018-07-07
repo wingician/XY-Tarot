@@ -2,13 +2,13 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/select/select",
-    "pages/result/result"
+    "pages/selectCard/selectCard",
+    "pages/resultPage/resultPage"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#546",
+    "navigationBarTitleText": "心悦塔罗",
+    "navigationBarTextStyle":"white"
   }
 }

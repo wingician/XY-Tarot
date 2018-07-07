@@ -9,13 +9,27 @@
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #546;
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 50px;
+  color: #546;
 }
+
+.radio-group {
+    border-bottom: 0px solid #ddd;
+    color:#546;
+}
+.radio {
+    display: block;
+    border-top: 0px solid #ddd;
+    padding: 1px;
+}
+
+
+page{background-color: "whitesmoke" center top; }
