@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
+    "pages/selectType/selectType",    
     "pages/selectCard/selectCard",
     "pages/resultPage/resultPage"
   ],

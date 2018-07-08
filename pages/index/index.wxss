@@ -21,15 +21,10 @@
   color: #546;
 }
 
-.radio-group {
-    border-bottom: 0px solid #ddd;
-    color:#546;
-}
-.radio {
-    display: block;
-    border-top: 0px solid #ddd;
-    padding: 1px;
-}
+.biginButton{
+  width: 150rpx;
+  height: 128rpx;
+  margin: 20rpx;
 
-
+}
 page{background-color: "whitesmoke" center top; }

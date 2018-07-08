@@ -7,19 +7,9 @@ Page({
     motto: '开始预测',
     userInfo: {},
     hasUserInfo: false,
-    welcome:'欢迎使用心悦塔罗来预测',
+    welcome:'欢迎使用心悦塔罗',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
 
-    items: [
-      { name: 'Career', value: '事业' },
-      { name: 'Family', value: '家庭', checked: 'true' },
-      { name: 'Child', value: '子女' },
-      { name: 'Health', value: '身体' },
-      { name: 'Love', value: '恋爱' },
-      { name: 'Parent', value: '父母' },
-      { name: 'Friends', value: '朋友' },
-      { name: 'Others', value: '其他' },
-    ]
   },
 
   radioChange: function (e) {
@@ -29,7 +19,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../selectCard/selectCard'
+      url: '../selectType/selectType'
     })
   },
   onLoad: function () {

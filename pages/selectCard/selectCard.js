@@ -163,7 +163,7 @@ startGame: function () {  // 开始游戏
     this.data.cardNumber = this.random();
     console.log("onShow");
     this.startGame();
-
+    
   },
 
   /**
@@ -227,6 +227,15 @@ turn:function(elem){
   cls = cls.replace(/photo_back/, 'photo_front')
 }
 return elem.className = cls;
+},
+
+startMSG:function(){
+  wx.showToast({
+    title: '静下心来，心中默念，然后选择一张塔罗牌',
+    icon: 'loading',
+    duration: 1500
+  })
+
 }
 
 })
