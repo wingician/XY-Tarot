@@ -14,6 +14,12 @@
 
 .userinfo-nickname {
   color: #546;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-top: 5px;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .usermotto {
@@ -27,4 +33,15 @@
   margin: 20rpx;
 
 }
-page{background-color: "whitesmoke" center top; }
+
+.candle{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 10%;
+}
+
+page{
+  background-color: black;
+  
+  }

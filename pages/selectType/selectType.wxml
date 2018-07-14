@@ -2,7 +2,7 @@
       <text class="userinfo-nickname">请选择要预测的方面：</text>
 
 <radio-group class="radio-group" bindchange="radioChange">
-  <label class="radio" wx:for="{{items}}">
+  <label class="radio" wx:for="{{items}}" wx:key="name">
     <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
   </label>
 </radio-group>

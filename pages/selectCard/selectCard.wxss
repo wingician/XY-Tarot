@@ -36,5 +36,18 @@ background-size: 100% 100%;
     text-algin:center;
 }
 
-page{background: "whitesmoke" center top; }
+page{
 
+  background-color:#546;
+
+  }
+
+.tip{
+    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-top: 5px;
+  margin-left:20px;
+  margin-right:20px;
+}

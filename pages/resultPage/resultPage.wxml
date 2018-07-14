@@ -1,5 +1,8 @@
 <!--pages/resultPage/resultPage.wxml-->
-<text>结果</text>
+<view>
+<text>{{cardNumber}}</text>
+<text>{{cardStatus}}</text>
+</view>
   <view >
     <image class="card"  mode="aspectFit" src= "{{selectedCard}}" display="inline-block" ></image>
   </view>

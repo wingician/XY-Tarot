@@ -7,19 +7,16 @@ Page({
     motto: '开始预测',
     userInfo: {},
     hasUserInfo: false,
-    welcome:'欢迎使用心悦塔罗',
+    welcome:'陌生人，你已进入了心悦塔罗屋。这里拥有神秘的力量。',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    ready:',准备好开始神秘之旅了吗?',
 
-  },
-
-  radioChange: function (e) {
-    console.log('radio发生change事件，携带value值为：', e.detail.value)
   },
 
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../selectType/selectType'
+      url: '../selectCard/selectCard'
     })
   },
   onLoad: function () {

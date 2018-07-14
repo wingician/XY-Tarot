@@ -25,6 +25,11 @@ Page({
     })
   },
 
+
+  radioChange: function (e) {
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
