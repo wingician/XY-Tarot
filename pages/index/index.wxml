@@ -13,6 +13,6 @@
 
 
 <view class="container">
-<image class="candle" src="../images/candle.gif" ></image>
+<image class="candle" src="../images/critball.jpg" ></image>
 <button size="default" type="primary"  bindtap="bindViewTap"> {{motto}} </button>
 </view>

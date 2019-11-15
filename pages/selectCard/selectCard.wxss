@@ -30,24 +30,33 @@ background-size: 100% 100%;
      magrin: 1rpx;
 }
 
-.att{
-    margin-bottom:1rpx ;
-    padding:0rpx;
-    text-algin:center;
-}
-
 page{
-
-  background-color:#546;
-
+  background-color:black;
   }
 
-.tip{
-    color: white;
+
+.titleTip{
   display: flex;
-  flex-direction: column;
-  justify-content:center;
-  margin-top: 5px;
-  margin-left:20px;
-  margin-right:20px;
 }
+
+.titleTip{
+  background-color: black; 
+  width: 100%;
+  height: 120rpx;
+}
+
+.titleTip .item{
+ padding:2px;
+}
+
+.titleTip .item:first-child{
+  width: 78rpx;
+  height: 88rpx;
+  margin: 20rpx;
+  border-radius: 10%;
+}
+
+.titleTip .item:last-child{
+  background-color: black;
+  color: whitesmoke;
+} 

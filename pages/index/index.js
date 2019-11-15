@@ -7,7 +7,7 @@ Page({
     motto: '开始预测',
     userInfo: {},
     hasUserInfo: false,
-    welcome:'陌生人，你已进入了心悦塔罗屋。这里拥有神秘的力量。',
+    welcome:'陌生人，你已进入了欣月塔罗屋。这里拥有神秘的力量。',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     ready:',准备好开始神秘之旅了吗?',
 

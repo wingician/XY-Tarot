@@ -1,8 +1,56 @@
 <!--pages/resultPage/resultPage.wxml-->
-<view>
-<text>{{cardNumber}}</text>
-<text>{{cardStatus}}</text>
+
+<view class="resultTitle">
+  <text class="item">{{cardName}}</text>
+  <image class="item" mode="aspectFit" src="{{selectedCard}}" display="inline-block"></image>
 </view>
-  <view >
-    <image class="card"  mode="aspectFit" src= "{{selectedCard}}" display="inline-block" ></image>
+
+
+
+<view class="resultText">
+  <view class="demo_line_01"></view>
+  <view class="demo_line_01">- ☤ -</view>
+  <view>
+    <text class="resultItem">【四要素】：{{cardElement}}</text>
   </view>
+  <view>
+    <text class="resultItem">【星相】：{{cardZodiac}}</text>
+  </view>
+  <view class="demo_line_01">- ⚚ -</view>
+  <view class="demo_line_01"></view>
+
+  <view>
+    <text class="resultItem">【关键字】:</text>
+  </view>
+  <view class="resultItem">
+    <text class="resultItem">{{cardKeyword}}</text>
+  </view>
+
+  <view class="demo_line_01"> - ✡︎ -</view>
+  <view class="demo_line_01"></view>
+
+
+  <view>
+    <text class="resultItem">【牌面象征】：</text>
+  </view>
+  <view>
+    <text class="resultItem">{{cardSyble}}</text>
+  </view>
+  <view class="demo_line_01">- ✠ -</view>
+  <view class="demo_line_01"></view>
+  <view>
+    <text class="resultItem">【牌义解析】：</text>
+  </view>
+  <view>
+    <text class="resultItem">{{cardMean}}</text>
+  </view>
+</view>
+
+<view class="demo_line_01"> ----</view>
+<view class="resultTitle">
+  <text class="item">☞更多内容,请关注微信公众号</text>
+  <text class="item">[月晓灵魂塔罗馆]</text>
+  <image class="erweima" src="../images/erweima1.jpg" ></image>
+  <image class="erweima" src="../images/erweima2.jpg" ></image>
+</view>
+

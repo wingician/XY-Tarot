@@ -1,8 +1,10 @@
 <!--pages/selectCard/selectCard.wxml-->
-<view class="tip">
-<text class="att">静下心来，心中默念你想要问的问题，然后选择一张塔罗牌</text>
+<view class="titleTip">
+<image class="item" src="../images/witch.jpg" mode="scaleToFill"></image>
+<text class="item">静下心来，心中默念你想要问的问题，然后选择一张塔罗牌</text>
 </view>
-<view class="">
+
+<view>
   <view class="board" >
     <view class="rows" wx:for="{{cards}}" wx:for-index="idx" wx:for-item="row" wx:key="idx">
         <view wx:for="{{row}}" class="cols"   wx:for-index="idy"  wx:for-item="card" wx:key="idy"> 

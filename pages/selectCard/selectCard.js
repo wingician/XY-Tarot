@@ -141,7 +141,7 @@ startGame: function () {  // 开始游戏
   onLoad: function (options) {
 
     wx.setNavigationBarTitle({
-      title: '心悦塔罗'
+      title: '欣月塔罗'
     });
     this.startGame();
     console.log(this.data.cards);    

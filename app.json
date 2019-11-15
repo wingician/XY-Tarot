@@ -1,15 +1,14 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/selectType/selectType",    
+    "pages/logs/logs",    
     "pages/selectCard/selectCard",
     "pages/resultPage/resultPage"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#546",
-    "navigationBarTitleText": "心悦塔罗",
+    "navigationBarTitleText": "欣月塔罗",
     "navigationBarTextStyle":"white"
   }
 }
